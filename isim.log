@@ -1,0 +1,38 @@
+ISim log file
+Running: C:\test\regester\ControlUnit_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/test/regester/ControlUnit_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /controlunit/clk 1 -radix bin -value 0 -radix bin -time 10 ns -repeat 20 ns
+# isim force add /controlunit/clk 1 -radix bin -value 0 -radix bin -time 10 ns -repeat 20 ns
+# isim force add /controlunit/mclk 1 -radix bin
+# isim force add /controlunit/mclk 1 -radix bin
+# isim force add /controlunit/enable 0 -radix bin
+# isim force add /controlunit/enable 1 -radix bin
+# isim force add /controlunit/enable 1 -radix bin
+# isim force add /controlunit/statusc 1 -radix bin
+# isim force add /controlunit/statusc 1 -radix bin
+# isim force add /controlunit/statusz 0 -radix bin
+# isim force add /controlunit/statusz 0 -radix bin
+# isim force add /controlunit/inst 11111001111111111111111111111111 -radix bin
+/controlunit/inst: Could not convert given string value 11111001111111111111111111111111 to an appropriate value.
+# isim force add /controlunit/inst 11111001111111111111111111111111 -radix bin
+/controlunit/inst: Could not convert given string value 11111001111111111111111111111111 to an appropriate value.
+# run 1.00us
+# isim force add /controlunit/inst 10111111111110101 -radix bin
+# isim force add /controlunit/inst 10111111111110101 -radix bin
+# run 1.00us
+# isim force add /controlunit/a_mux 0 -radix bin
+# isim force add /controlunit/a_mux 0 -radix bin
+# isim force add /controlunit/b_mux 0 -radix bin
+# isim force add /controlunit/b_mux 0 -radix bin
+# isim force add /controlunit/im_mux1 1 -radix bin
+# isim force add /controlunit/im_mux1 1 -radix bin
+# isim force add /controlunit/inst 1000000011111111010 -radix bin
+# isim force add /controlunit/inst 1000000011111111010 -radix bin
+# run 1.00us

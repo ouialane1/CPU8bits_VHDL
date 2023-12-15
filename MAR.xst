@@ -1,0 +1,5 @@
+set -tmpdir "C:/test/regester/xst/projnav.tmp"
+set -xsthdpdir "C:/test/regester/xst"
+elaborate
+-ifn MAR.prj
+-ifmt mixed

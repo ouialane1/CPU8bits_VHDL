@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/test/regester/ControlUnit_isim_beh.exe" -prj "C:/test/regester/ControlUnit_beh.prj" "work.ControlUnit" 

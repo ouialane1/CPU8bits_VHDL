@@ -1,0 +1,2 @@
+vhdtdtfi -lib work RAM.vhd -prj regester -o RAM_32X8.spl -module RAM_32X8 -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work RAM.vhd -prj regester -o RAM_32X8.spl -module RAM_32X8 -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 

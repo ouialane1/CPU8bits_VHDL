@@ -1,0 +1,4 @@
+vhdl isim_temp "etqadd.vhd"
+vhdl isim_temp "add8bit.vhd"
+vhdl isim_temp "ALU.vhd"
+vhdl isim_temp "test_alu.vhd"

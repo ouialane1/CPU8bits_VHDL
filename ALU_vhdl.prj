@@ -1,0 +1,3 @@
+vhdl work "C:\test\regester\etqadd.vhd"
+vhdl work "C:\test\regester\add8bit.vhd"
+vhdl work "C:\test\regester\ALU.vhd"

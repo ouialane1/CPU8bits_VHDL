@@ -1,0 +1,62 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/test/regester/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to C:/test/regester/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/test/regester/RAM.vhd" in Library work.
+Entity <RAM_256X8> compiled.
+ERROR:HDLParsers:3010 - "C:/test/regester/RAM.vhd" Line 13. Entity RAM_32X8 does not exist.
+ERROR:HDLParsers:3312 - "C:/test/regester/RAM.vhd" Line 14. Undefined symbol 'std_logic_vector'.
+ERROR:HDLParsers:1209 - "C:/test/regester/RAM.vhd" Line 14. std_logic_vector: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/test/regester/RAM.vhd" Line 15. Undefined symbol 'ram_array'.
+ERROR:HDLParsers:1209 - "C:/test/regester/RAM.vhd" Line 15. ram_array: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/test/regester/RAM.vhd" Line 17. Undefined symbol 'clk'.
+ERROR:HDLParsers:1209 - "C:/test/regester/RAM.vhd" Line 17. clk: Undefined symbol (last report in this block)
+ERROR:HDLParsers:808 - "C:/test/regester/RAM.vhd" Line 20. = can not have such operands in this context.
+ERROR:HDLParsers:3312 - "C:/test/regester/RAM.vhd" Line 21. Undefined symbol 'ram_data'.
+ERROR:HDLParsers:1209 - "C:/test/regester/RAM.vhd" Line 21. ram_data: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/test/regester/RAM.vhd" Line 21. Undefined symbol 'to_integer'.
+ERROR:HDLParsers:1209 - "C:/test/regester/RAM.vhd" Line 21. to_integer: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/test/regester/RAM.vhd" Line 21. Undefined symbol 'unsigned'.
+ERROR:HDLParsers:1209 - "C:/test/regester/RAM.vhd" Line 21. unsigned: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/test/regester/RAM.vhd" Line 21. Undefined symbol 'address'.
+ERROR:HDLParsers:1209 - "C:/test/regester/RAM.vhd" Line 21. address: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/test/regester/RAM.vhd" Line 21. Undefined symbol 'data_in'.
+ERROR:HDLParsers:1209 - "C:/test/regester/RAM.vhd" Line 21. data_in: Undefined symbol (last report in this block)
+WARNING:HDLParsers:1406 - "C:/test/regester/RAM.vhd" Line 17. No sensitivity list and no wait in the process
+ERROR:HDLParsers:3312 - "C:/test/regester/RAM.vhd" Line 25. Undefined symbol 'data_out'.
+ERROR:HDLParsers:3312 - "C:/test/regester/RAM.vhd" Line 25. Undefined symbol 'ram_data'.
+ERROR:HDLParsers:1209 - "C:/test/regester/RAM.vhd" Line 25. ram_data: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/test/regester/RAM.vhd" Line 25. Undefined symbol 'to_integer'.
+ERROR:HDLParsers:1209 - "C:/test/regester/RAM.vhd" Line 25. to_integer: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/test/regester/RAM.vhd" Line 25. Undefined symbol 'unsigned'.
+ERROR:HDLParsers:1209 - "C:/test/regester/RAM.vhd" Line 25. unsigned: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/test/regester/RAM.vhd" Line 25. Undefined symbol 'address'.
+ERROR:HDLParsers:1209 - "C:/test/regester/RAM.vhd" Line 25. address: Undefined symbol (last report in this block)
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> 
+
+Total memory usage is 4469096 kilobytes
+
+Number of errors   :   27 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

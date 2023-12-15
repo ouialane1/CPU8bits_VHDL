@@ -1,0 +1,2 @@
+vhdtdtfi -lib work MAR.vhd -prj regester -o MAR.spl -module MAR -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e MAR.spl C:/test/regester/MAR.sym 
